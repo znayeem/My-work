@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    width: 1180;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.logo{
+    margin: 20px 0;
+}
+/* nav class */
+.navbar{
+    background: #000;
+    position: sticky;
+    top: 0;
+}
+.menu{
+   display: flex;
+   list-style: none;
+}
+
+
+.menu li a{
+    color: white;
+    display:inline-block;
+    font-size: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background: burlywood;
+}
+.section-padding{
+    padding: 60px 0;
+}
+#banner {
+    background: lightgray;
+    padding: 30px 0;
+background-image: url(c:\Users\User\Downloads\FILE\1.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;  
+}
+#about{
+    background: lightskyblue;
+
+
+}
+#service{
+    background: rgb(221, 195, 236);
+    padding: 60px 0;
+    
+}
+#contact{
+    background: rgb(172, 231, 167);
+    padding: 60px 0;
+}
+
+.banner-content{
+    padding: 150px 0;
+    max-width: 700px;
+}
+.btn-wrapper{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    background: #695f5f;
+    padding: 14px 36px;
+    font-weight: 600;
+    color:blanchedalmond;
+    margin-right: 20;
+}
+.btn:last-child{
+    margin: 0;
+}
+
+.btn-dark{
+    background: rgb(11, 16, 80);
+    
+    
+
+}
+
+.btn-yellow{
+    background: rgb(216, 146, 17);
+    
+    
+
+
+}
+
+.banner-content h1{
+    font-size: 70;
+
+}
+.banner-content h4{
+    font-size: 24px;
+    padding: 50px 0;
+    font-weight: 400;
+}
